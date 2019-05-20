@@ -100,7 +100,7 @@ For list, use `Array.of_list` and `Array.to_list` in the [Array](https://reasonm
 
 As to why we don't compile list to JS array or vice-versa, it's because OCaml array and JS array share similar characteristics: mutable, similar read/write performance, etc. List, on the other hand, is immutable and has different access perf characteristics.
 
-The same justification applies for records. OCaml records are fixed, nominally typed, and in general doesn't work well with JS objects. We do provide excellent facilities to bind to JS objects in the [object section](object.md).
+The same justification applies for records. OCaml records are fixed, nominally typed, and in general don't work well with JS objects. We do provide excellent facilities to bind to JS objects in the [object section](object.md).
 
 <!-- TODO: playground link -->
 
